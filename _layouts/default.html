@@ -5,30 +5,24 @@
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
-
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
 
     </head>
     <body>
 
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
-          </div>
-
+        <div class="wrapper">
+          <h1><a href="/dragonquest.at">{{ site.name }}</a></h1>
+      
           {{ content }}
 
           <div class="footer">
-            <div class="contact">
-              <p>
-                See <a href="https://github.com/ddprrt/dragonquest.at/">for more details</a>
-              </p>
-            </div>
-            
+          <div class="contact">
+            <p>
+              See <a href="https://github.com/ddprrt/dragonquest.at/">for more details</a>
+            </p>
+          </div>
+
           </div>
         </div>
         <script type="text/javascript">
